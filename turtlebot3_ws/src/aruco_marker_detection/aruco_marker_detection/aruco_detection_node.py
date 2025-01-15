@@ -1,10 +1,10 @@
-
 import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import Image, CameraInfo
 import cv2
 from cv_bridge import CvBridge
 import numpy as np
+import tf2_ros
 
 class ArucoDetectionNode(Node):
     def __init__(self):
@@ -12,6 +12,10 @@ class ArucoDetectionNode(Node):
         self.bridge = CvBridge()
         self.camera_matrix = None
         self.dist_coeffs = None
+
+        # Initialize TF2 Buffer and Listener
+        self.tf_buffer = tf2_ros.Buffer()
+        self.tf_listener = tf2_ros.TransformListener(self.tf_buffer, self)
 
         # Subscribe to image and camera info topics
         self.image_sub = self.create_subscription(
@@ -72,6 +76,19 @@ class ArucoDetectionNode(Node):
                         f"Marker ID: {marker_id[0]} | Position (x, y, z): {tvec} | Distance: {distance:.2f}m"
                     )
 
+                    # Look up transform from 'world' to 'camera_frame'
+                    try:
+                        transform = self.tf_buffer.lookup_transform(
+                            'world', 'camera_frame', rclpy.time.Time(), timeout=rclpy.duration.Duration(seconds=2.0)
+                        )
+
+                        # Apply the transform to the marker's position
+                        transformed_tvec = self.transform_marker_to_world(tvec, transform)
+                        self.get_logger().info(f"Transformed Marker Position: {transformed_tvec}")
+
+                    except tf2_ros.TransformException as e:
+                        self.get_logger().warn(f"Transform failed: {e}")
+
                     # Draw axis for each marker
                     cv2.drawFrameAxes(cv_image, self.camera_matrix, self.dist_coeffs, rvec, tvec, 0.1)
 
@@ -81,6 +98,23 @@ class ArucoDetectionNode(Node):
 
         except Exception as e:
             self.get_logger().error(f"Error processing image: {e}")
+
+    def transform_marker_to_world(self, tvec, transform):
+        """
+        Apply the transform to the marker position to convert it to the 'world' frame.
+        """
+        # Create a numpy array for the marker translation vector
+        marker_position = np.array(tvec)
+
+        # Get the translation part of the transform
+        transform_translation = np.array([transform.transform.translation.x, 
+                                          transform.transform.translation.y, 
+                                          transform.transform.translation.z])
+
+        # Combine the marker position with the transformation
+        transformed_position = marker_position + transform_translation
+
+        return transformed_position
 
 def main(args=None):
     rclpy.init(args=args)
@@ -94,6 +128,7 @@ def main(args=None):
         cv2.destroyAllWindows()
         node.destroy_node()
         rclpy.shutdown()
+
 
 
 
