@@ -1,0 +1,27 @@
+[0.034s] Invoking command in '/home/rishi/turtlebot3_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rishi/turtlebot3_ws/install/turtlebot3_teleop:/home/rishi/turtlebot3_ws/install/turtlebot3_example:/home/rishi/turtlebot3_ws/install/aruco_marker_detection:/home/rishi/eyrc/install/ur5_control:/home/rishi/eyrc/install/tasks:/home/rishi/eyrc/install/task_4c:/home/rishi/eyrc/install/pymoveitnn:/home/rishi/eyrc/install/docking_srv:/opt/ros/humble /usr/bin/cmake --build /home/rishi/turtlebot3_ws/build/turtlebot3_cartographer -- -j12 -l12
+[0.615s] Invoked command in '/home/rishi/turtlebot3_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rishi/turtlebot3_ws/install/turtlebot3_teleop:/home/rishi/turtlebot3_ws/install/turtlebot3_example:/home/rishi/turtlebot3_ws/install/aruco_marker_detection:/home/rishi/eyrc/install/ur5_control:/home/rishi/eyrc/install/tasks:/home/rishi/eyrc/install/task_4c:/home/rishi/eyrc/install/pymoveitnn:/home/rishi/eyrc/install/docking_srv:/opt/ros/humble /usr/bin/cmake --build /home/rishi/turtlebot3_ws/build/turtlebot3_cartographer -- -j12 -l12
+[0.616s] Invoking command in '/home/rishi/turtlebot3_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rishi/turtlebot3_ws/install/turtlebot3_teleop:/home/rishi/turtlebot3_ws/install/turtlebot3_example:/home/rishi/turtlebot3_ws/install/aruco_marker_detection:/home/rishi/eyrc/install/ur5_control:/home/rishi/eyrc/install/tasks:/home/rishi/eyrc/install/task_4c:/home/rishi/eyrc/install/pymoveitnn:/home/rishi/eyrc/install/docking_srv:/opt/ros/humble /usr/bin/cmake --install /home/rishi/turtlebot3_ws/build/turtlebot3_cartographer
+[0.624s] -- Install configuration: ""
+[0.624s] -- Execute custom install script
+[0.624s] -- Up-to-date symlink: /home/rishi/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config/ekf_localization.yaml
+[0.625s] -- Up-to-date symlink: /home/rishi/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config/turtlebot3_lds_2d.lua
+[0.625s] -- Up-to-date symlink: /home/rishi/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/cartographer.launch.py
+[0.625s] -- Up-to-date symlink: /home/rishi/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/occupancy_grid.launch.py
+[0.625s] -- Up-to-date symlink: /home/rishi/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/sensor_fusion_launch.py
+[0.625s] -- Up-to-date symlink: /home/rishi/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz/tb3_cartographer.rviz
+[0.625s] -- Up-to-date symlink: /home/rishi/turtlebot3_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/package_run_dependencies/turtlebot3_cartographer
+[0.625s] -- Up-to-date symlink: /home/rishi/turtlebot3_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/parent_prefix_path/turtlebot3_cartographer
+[0.625s] -- Up-to-date symlink: /home/rishi/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.sh
+[0.625s] -- Up-to-date symlink: /home/rishi/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.dsv
+[0.625s] -- Up-to-date symlink: /home/rishi/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.sh
+[0.625s] -- Up-to-date symlink: /home/rishi/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.dsv
+[0.625s] -- Up-to-date symlink: /home/rishi/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.bash
+[0.625s] -- Up-to-date symlink: /home/rishi/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.sh
+[0.625s] -- Up-to-date symlink: /home/rishi/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.zsh
+[0.625s] -- Up-to-date symlink: /home/rishi/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.dsv
+[0.625s] -- Symlinking: /home/rishi/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.dsv
+[0.627s] -- Up-to-date symlink: /home/rishi/turtlebot3_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/packages/turtlebot3_cartographer
+[0.627s] -- Up-to-date symlink: /home/rishi/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig.cmake
+[0.628s] -- Up-to-date symlink: /home/rishi/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig-version.cmake
+[0.628s] -- Up-to-date symlink: /home/rishi/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.xml
+[0.661s] Invoked command in '/home/rishi/turtlebot3_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rishi/turtlebot3_ws/install/turtlebot3_teleop:/home/rishi/turtlebot3_ws/install/turtlebot3_example:/home/rishi/turtlebot3_ws/install/aruco_marker_detection:/home/rishi/eyrc/install/ur5_control:/home/rishi/eyrc/install/tasks:/home/rishi/eyrc/install/task_4c:/home/rishi/eyrc/install/pymoveitnn:/home/rishi/eyrc/install/docking_srv:/opt/ros/humble /usr/bin/cmake --install /home/rishi/turtlebot3_ws/build/turtlebot3_cartographer

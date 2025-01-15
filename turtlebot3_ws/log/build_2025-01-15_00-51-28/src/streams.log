@@ -1,0 +1,175 @@
+[0.010s] Invoking command in '/home/rishi/turtlebot3_ws/build/src': /usr/bin/cmake /home/rishi/turtlebot3_ws/src -DCMAKE_INSTALL_PREFIX=/home/rishi/turtlebot3_ws/install/src
+[0.012s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.012s]   No project() command is present.  The top-level CMakeLists.txt file must
+[0.012s]   contain a literal, direct call to the project() command.  Add a line of
+[0.012s]   code such as
+[0.012s] 
+[0.012s]     project(ProjectName)
+[0.012s] 
+[0.012s]   near the top of the file, but after cmake_minimum_required().
+[0.012s] 
+[0.012s]   CMake is pretending there is a "project(Project)" command on the first
+[0.012s]   line.
+[0.012s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.012s] [0m
+[0.061s] -- The C compiler identification is GNU 11.4.0
+[0.106s] -- The CXX compiler identification is GNU 11.4.0
+[0.115s] -- Detecting C compiler ABI info
+[0.159s] -- Detecting C compiler ABI info - done
+[0.164s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.164s] -- Detecting C compile features
+[0.165s] -- Detecting C compile features - done
+[0.167s] -- Detecting CXX compiler ABI info
+[0.214s] -- Detecting CXX compiler ABI info - done
+[0.220s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.220s] -- Detecting CXX compile features
+[0.220s] -- Detecting CXX compile features - done
+[0.227s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[0.230s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.677s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.728s] [33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_core/cmake/core/normalize_path.cmake:52 (while):
+[0.729s]   Policy CMP0130 is not set: while() diagnoses condition evaluation errors.
+[0.729s]   Run "cmake --help-policy CMP0130" for policy details.  Use the cmake_policy
+[0.729s]   command to set the policy and suppress this warning.
+[0.729s] 
+[0.729s]   while() given incorrect arguments:
+[0.729s] 
+[0.729s]     "TRUE"
+[0.729s] 
+[0.729s]   An argument named "TRUE" appears in a conditional statement.  Policy
+[0.729s]   CMP0012 is not set: if() recognizes numbers and boolean constants.  Run
+[0.729s]   "cmake --help-policy CMP0012" for policy details.  Use the cmake_policy
+[0.729s]   command to set the policy and suppress this warning.
+[0.729s] Call Stack (most recent call first):
+[0.729s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/normalize_path.cmake:34 (_normalize_path__collapse_redundant)
+[0.729s]   /opt/ros/humble/share/builtin_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake:13 (normalize_path)
+[0.729s]   /opt/ros/humble/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)
+[0.729s]   /opt/ros/humble/share/sensor_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.729s]   /opt/ros/humble/share/sensor_msgs/cmake/sensor_msgsConfig.cmake:41 (include)
+[0.729s]   CMakeLists.txt:2 (find_package)
+[0.729s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.729s] [0m
+[0.729s] [33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_core/cmake/core/normalize_path.cmake:72 (while):
+[0.729s]   Policy CMP0130 is not set: while() diagnoses condition evaluation errors.
+[0.729s]   Run "cmake --help-policy CMP0130" for policy details.  Use the cmake_policy
+[0.729s]   command to set the policy and suppress this warning.
+[0.729s] 
+[0.729s]   while() given incorrect arguments:
+[0.729s] 
+[0.729s]     "TRUE"
+[0.729s] 
+[0.729s]   An argument named "TRUE" appears in a conditional statement.  Policy
+[0.730s]   CMP0012 is not set: if() recognizes numbers and boolean constants.  Run
+[0.730s]   "cmake --help-policy CMP0012" for policy details.  Use the cmake_policy
+[0.730s]   command to set the policy and suppress this warning.
+[0.730s] Call Stack (most recent call first):
+[0.730s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/normalize_path.cmake:35 (_normalize_path__collapse_uplevel_reference)
+[0.730s]   /opt/ros/humble/share/builtin_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake:13 (normalize_path)
+[0.730s]   /opt/ros/humble/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)
+[0.730s]   /opt/ros/humble/share/sensor_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.730s]   /opt/ros/humble/share/sensor_msgs/cmake/sensor_msgsConfig.cmake:41 (include)
+[0.730s]   CMakeLists.txt:2 (find_package)
+[0.730s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.730s] [0m
+[0.740s] [33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_core/cmake/core/normalize_path.cmake:52 (while):
+[0.740s]   Policy CMP0130 is not set: while() diagnoses condition evaluation errors.
+[0.740s]   Run "cmake --help-policy CMP0130" for policy details.  Use the cmake_policy
+[0.740s]   command to set the policy and suppress this warning.
+[0.740s] 
+[0.740s]   while() given incorrect arguments:
+[0.740s] 
+[0.740s]     "TRUE"
+[0.740s] 
+[0.740s]   An argument named "TRUE" appears in a conditional statement.  Policy
+[0.740s]   CMP0012 is not set: if() recognizes numbers and boolean constants.  Run
+[0.740s]   "cmake --help-policy CMP0012" for policy details.  Use the cmake_policy
+[0.740s]   command to set the policy and suppress this warning.
+[0.740s] Call Stack (most recent call first):
+[0.740s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/normalize_path.cmake:34 (_normalize_path__collapse_redundant)
+[0.740s]   /opt/ros/humble/share/rcutils/cmake/ament_cmake_export_include_directories-extras.cmake:13 (normalize_path)
+[0.740s]   /opt/ros/humble/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)
+[0.740s]   /opt/ros/humble/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.740s]   /opt/ros/humble/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)
+[0.740s]   /opt/ros/humble/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.740s]   /opt/ros/humble/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)
+[0.740s]   /opt/ros/humble/share/sensor_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.740s]   /opt/ros/humble/share/sensor_msgs/cmake/sensor_msgsConfig.cmake:41 (include)
+[0.740s]   CMakeLists.txt:2 (find_package)
+[0.740s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.741s] [0m
+[0.741s] [33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_core/cmake/core/normalize_path.cmake:72 (while):
+[0.741s]   Policy CMP0130 is not set: while() diagnoses condition evaluation errors.
+[0.741s]   Run "cmake --help-policy CMP0130" for policy details.  Use the cmake_policy
+[0.741s]   command to set the policy and suppress this warning.
+[0.741s] 
+[0.741s]   while() given incorrect arguments:
+[0.741s] 
+[0.741s]     "TRUE"
+[0.741s] 
+[0.741s]   An argument named "TRUE" appears in a conditional statement.  Policy
+[0.741s]   CMP0012 is not set: if() recognizes numbers and boolean constants.  Run
+[0.741s]   "cmake --help-policy CMP0012" for policy details.  Use the cmake_policy
+[0.741s]   command to set the policy and suppress this warning.
+[0.741s] Call Stack (most recent call first):
+[0.741s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/normalize_path.cmake:35 (_normalize_path__collapse_uplevel_reference)
+[0.741s]   /opt/ros/humble/share/rcutils/cmake/ament_cmake_export_include_directories-extras.cmake:13 (normalize_path)
+[0.741s]   /opt/ros/humble/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)
+[0.741s]   /opt/ros/humble/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.741s]   /opt/ros/humble/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)
+[0.741s]   /opt/ros/humble/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.741s]   /opt/ros/humble/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)
+[0.741s]   /opt/ros/humble/share/sensor_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.741s]   /opt/ros/humble/share/sensor_msgs/cmake/sensor_msgsConfig.cmake:41 (include)
+[0.741s]   CMakeLists.txt:2 (find_package)
+[0.741s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.741s] [0m
+[0.790s] [33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):
+[0.790s]   Policy CMP0057 is not set: Support new IN_LIST if() operator.  Run "cmake
+[0.790s]   --help-policy CMP0057" for policy details.  Use the cmake_policy command to
+[0.790s]   set the policy and suppress this warning.
+[0.790s] 
+[0.790s]   IN_LIST will be interpreted as an operator when the policy is set to NEW.
+[0.790s]   Since the policy is not set the OLD behavior will be used.
+[0.790s] Call Stack (most recent call first):
+[0.790s]   /opt/ros/humble/share/rcutils/cmake/ament_cmake_export_dependencies-extras.cmake:84 (list_append_unique)
+[0.790s]   /opt/ros/humble/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)
+[0.790s]   /opt/ros/humble/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.790s]   /opt/ros/humble/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)
+[0.790s]   /opt/ros/humble/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.790s]   /opt/ros/humble/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)
+[0.790s]   /opt/ros/humble/share/sensor_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.790s]   /opt/ros/humble/share/sensor_msgs/cmake/sensor_msgsConfig.cmake:41 (include)
+[0.790s]   CMakeLists.txt:2 (find_package)
+[0.790s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.790s] [0m
+[0.790s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):
+[0.791s]   if given arguments:
+[0.791s] 
+[0.791s]     "NOT" "element" "IN_LIST" "rcutils_RECURSIVE_DEPENDENCIES"
+[0.791s] 
+[0.791s]   Unknown arguments specified
+[0.791s] Call Stack (most recent call first):
+[0.791s]   /opt/ros/humble/share/rcutils/cmake/ament_cmake_export_dependencies-extras.cmake:84 (list_append_unique)
+[0.791s]   /opt/ros/humble/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)
+[0.791s]   /opt/ros/humble/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.791s]   /opt/ros/humble/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)
+[0.791s]   /opt/ros/humble/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.791s]   /opt/ros/humble/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)
+[0.791s]   /opt/ros/humble/share/sensor_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.791s]   /opt/ros/humble/share/sensor_msgs/cmake/sensor_msgsConfig.cmake:41 (include)
+[0.791s]   CMakeLists.txt:2 (find_package)
+[0.791s] 
+[0.791s] [0m
+[0.791s] -- Configuring incomplete, errors occurred!
+[0.791s] See also "/home/rishi/turtlebot3_ws/build/src/CMakeFiles/CMakeOutput.log".
+[0.791s] [31mCMake Error in CMakeLists.txt:
+[0.791s]   No cmake_minimum_required command is present.  A line of code such as
+[0.791s] 
+[0.791s]     cmake_minimum_required(VERSION 3.25)
+[0.791s] 
+[0.791s]   should be added at the top of the file.  The version specified may be lower
+[0.791s]   if you wish to support older CMake versions for this project.  For more
+[0.791s]   information run "cmake --help-policy CMP0000".
+[0.791s] 
+[0.791s] [0m
+[0.793s] Invoked command in '/home/rishi/turtlebot3_ws/build/src' returned '1': /usr/bin/cmake /home/rishi/turtlebot3_ws/src -DCMAKE_INSTALL_PREFIX=/home/rishi/turtlebot3_ws/install/src

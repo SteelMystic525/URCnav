@@ -1,0 +1,2 @@
+Invoking command in '/home/rishi/turtlebot3_ws/build/aruco_marker_detection': /usr/bin/cmake /home/rishi/turtlebot3_ws/src/aruco_marker_detection -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/rishi/turtlebot3_ws/install/aruco_marker_detection
+Invoked command in '/home/rishi/turtlebot3_ws/build/aruco_marker_detection' returned '1': /usr/bin/cmake /home/rishi/turtlebot3_ws/src/aruco_marker_detection -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/rishi/turtlebot3_ws/install/aruco_marker_detection

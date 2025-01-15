@@ -1,0 +1,22 @@
+[0.009s] Invoking command in '/home/rishi/turtlebot3_ws/build/aruco_marker_detection': /usr/bin/cmake /home/rishi/turtlebot3_ws/src -DCMAKE_INSTALL_PREFIX=/home/rishi/turtlebot3_ws/install/aruco_marker_detection
+[0.015s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[0.015s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.099s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.101s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.104s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.111s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.120s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.159s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.162s] [0mCMake Error: File /home/rishi/turtlebot3_ws/src/package.xml does not exist.[0m
+[0.162s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/stamp.cmake:24 (configure_file):
+[0.162s]   configure_file Problem configuring file
+[0.162s] Call Stack (most recent call first):
+[0.162s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:73 (stamp)
+[0.162s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.162s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)
+[0.162s]   CMakeLists.txt:30 (ament_package)
+[0.162s] 
+[0.163s] [0m
+[0.164s] -- Configuring incomplete, errors occurred!
+[0.164s] See also "/home/rishi/turtlebot3_ws/build/aruco_marker_detection/CMakeFiles/CMakeOutput.log".
+[0.167s] Invoked command in '/home/rishi/turtlebot3_ws/build/aruco_marker_detection' returned '1': /usr/bin/cmake /home/rishi/turtlebot3_ws/src -DCMAKE_INSTALL_PREFIX=/home/rishi/turtlebot3_ws/install/aruco_marker_detection

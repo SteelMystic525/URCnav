@@ -1,0 +1,2 @@
+Invoking command in '/home/rishi/turtlebot3_ws/build/src': /usr/bin/cmake /home/rishi/turtlebot3_ws/src -DCMAKE_INSTALL_PREFIX=/home/rishi/turtlebot3_ws/install/src
+Invoked command in '/home/rishi/turtlebot3_ws/build/src' returned '1': /usr/bin/cmake /home/rishi/turtlebot3_ws/src -DCMAKE_INSTALL_PREFIX=/home/rishi/turtlebot3_ws/install/src

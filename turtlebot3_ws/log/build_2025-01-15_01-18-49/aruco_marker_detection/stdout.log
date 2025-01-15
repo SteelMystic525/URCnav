@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/aruco_marker_detection/aruco_marker_detection.egg-info/PKG-INFO
+writing dependency_links to ../../build/aruco_marker_detection/aruco_marker_detection.egg-info/dependency_links.txt
+deleting ../../build/aruco_marker_detection/aruco_marker_detection.egg-info/entry_points.txt
+writing requirements to ../../build/aruco_marker_detection/aruco_marker_detection.egg-info/requires.txt
+writing top-level names to ../../build/aruco_marker_detection/aruco_marker_detection.egg-info/top_level.txt
+reading manifest file '../../build/aruco_marker_detection/aruco_marker_detection.egg-info/SOURCES.txt'
+writing manifest file '../../build/aruco_marker_detection/aruco_marker_detection.egg-info/SOURCES.txt'
+running build
+running build_py
+copying aruco_marker_detection/__init__.py -> /home/rishi/turtlebot3_ws/build/aruco_marker_detection/build/lib/aruco_marker_detection
+copying aruco_marker_detection/aruco_detection_node.py -> /home/rishi/turtlebot3_ws/build/aruco_marker_detection/build/lib/aruco_marker_detection
+running install
+running install_lib
+copying /home/rishi/turtlebot3_ws/build/aruco_marker_detection/build/lib/aruco_marker_detection/__init__.py -> /home/rishi/turtlebot3_ws/install/aruco_marker_detection/lib/python3.10/site-packages/aruco_marker_detection
+copying /home/rishi/turtlebot3_ws/build/aruco_marker_detection/build/lib/aruco_marker_detection/aruco_detection_node.py -> /home/rishi/turtlebot3_ws/install/aruco_marker_detection/lib/python3.10/site-packages/aruco_marker_detection
+byte-compiling /home/rishi/turtlebot3_ws/install/aruco_marker_detection/lib/python3.10/site-packages/aruco_marker_detection/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/rishi/turtlebot3_ws/install/aruco_marker_detection/lib/python3.10/site-packages/aruco_marker_detection/aruco_detection_node.py to aruco_detection_node.cpython-310.pyc
+running install_data
+copying resource/aruco_marker_detection -> /home/rishi/turtlebot3_ws/install/aruco_marker_detection/share/ament_index/resource_index/packages
+copying package.xml -> /home/rishi/turtlebot3_ws/install/aruco_marker_detection/share/aruco_marker_detection
+running install_egg_info
+removing '/home/rishi/turtlebot3_ws/install/aruco_marker_detection/lib/python3.10/site-packages/aruco_marker_detection-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/aruco_marker_detection/aruco_marker_detection.egg-info to /home/rishi/turtlebot3_ws/install/aruco_marker_detection/lib/python3.10/site-packages/aruco_marker_detection-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/rishi/turtlebot3_ws/build/aruco_marker_detection/install.log'

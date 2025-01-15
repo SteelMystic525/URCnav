@@ -1,0 +1,23 @@
+[0.046s] Invoking command in '/home/rishi/turtlebot3_ws/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rishi/turtlebot3_ws/install/aruco_marker_detection:/home/rishi/turtlebot3_ws/install/turtlebot3_teleop:/home/rishi/turtlebot3_ws/install/turtlebot3_example:/home/rishi/eyrc/install/ur5_control:/home/rishi/eyrc/install/tasks:/home/rishi/eyrc/install/task_4c:/home/rishi/eyrc/install/pymoveitnn:/home/rishi/eyrc/install/docking_srv:/opt/ros/humble /usr/bin/cmake --build /home/rishi/turtlebot3_ws/build/turtlebot3_msgs -- -j12 -l12
+[0.367s] [  1%] Built target turtlebot3_msgs__cpp
+[0.367s] [  1%] Built target ament_cmake_python_symlink_turtlebot3_msgs
+[0.367s] [ 12%] Built target turtlebot3_msgs__rosidl_generator_c
+[0.367s] [ 23%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp
+[0.367s] [ 35%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_cpp
+[0.367s] [ 46%] Built target turtlebot3_msgs__rosidl_typesupport_cpp
+[0.367s] [ 57%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_c
+[0.367s] [ 69%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_c
+[0.367s] [ 80%] Built target turtlebot3_msgs__rosidl_typesupport_c
+[0.368s] [ 80%] Built target turtlebot3_msgs
+[0.368s] [ 81%] Built target turtlebot3_msgs__py
+[0.368s] [ 91%] Built target turtlebot3_msgs__rosidl_generator_py
+[0.368s] [ 94%] Built target turtlebot3_msgs__rosidl_typesupport_c__pyext
+[0.368s] [ 97%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.368s] [100%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_c__pyext
+[0.368s] running egg_info
+[0.376s] writing turtlebot3_msgs.egg-info/PKG-INFO
+[0.376s] writing dependency_links to turtlebot3_msgs.egg-info/dependency_links.txt
+[0.376s] writing top-level names to turtlebot3_msgs.egg-info/top_level.txt
+[0.418s] reading manifest file 'turtlebot3_msgs.egg-info/SOURCES.txt'
+[0.419s] writing manifest file 'turtlebot3_msgs.egg-info/SOURCES.txt'
+[0.463s] [100%] Built target ament_cmake_python_build_turtlebot3_msgs_egg
